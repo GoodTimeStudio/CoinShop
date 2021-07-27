@@ -25,6 +25,6 @@ public class CoinShop implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		Registry.register(Registry.ITEM,new Identifier("coinshop","coin"),Coin.COIN);
-		ItemColors.register(Coin.COIN, 0xDAA520);
+		ItemColors.register(Coin.COIN, 0xDAA520, 0xFFFFFF);
 	}
 }

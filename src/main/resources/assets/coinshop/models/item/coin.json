@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "coinshop:item/coin"
+    "layer0": "coinshop:item/coin",
+    "layer1": "coinshop:item/coin_surface"
   }
 }

@@ -27,7 +27,7 @@ public class Config {
     }
 
     private static Path getPath(){
-        return new File(FabricLoader.getInstance().getConfigDir().toFile(), "color.json").toPath();
+        return new File(FabricLoader.getInstance().getConfigDir().toFile(), "coin_color.json").toPath();
     }
 
     private Config() {
